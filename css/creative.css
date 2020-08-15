@@ -384,7 +384,6 @@ header.masthead {
   position: relative;
   width: 100%;
   text-align: center;
-  color: white;
   background: #fad2d3;
   background: -webkit-linear-gradient(305deg, #fdf7f7 0%, #fff2d5 36%, #fef0e7 60%, #edf1f2 90%);
   background: -o-linear-gradient(305deg, #fdf7f7 0%, #fff2d5 36%, #fef0e7 60%, #edf1f2 90%);
@@ -416,19 +415,19 @@ header.masthead {
     padding: 150px 15px 100px;
     text-align: center; }
     header.masthead .header-content .header-content-inner h1 {
-      font-size: 3rem !important;
+      font-size: 3em !important;
       font-weight: 700;
       margin-top: 0;
       margin-bottom: 0; }
-    header.masthead .header-content .header-content-inner h2 {
-      font-size: 1.5rem; }
+    header.masthead .header-content .header-content-inner h2.slogan {
+      font-color: red !important;
+      font-size: 1.3rem; }
+    header.masthead .header-content .header-content-inner h3.materias {
+      margin-top: 0.5em;
+      color: #d13e3e;
+      font-size: 1.3em; }
     header.masthead .header-content .header-content-inner hr {
       margin: 30px auto; }
-    header.masthead .header-content .header-content-inner p.description {
-      color: #d13e3e !important;
-      font-weight: 300;
-      margin-top: 1em;
-      color: rgba(255, 255, 255, 0.7); }
     header.masthead .header-content .header-content-inner .bg-text {
       background-color: rgba(0, 0, 0, 0.57);
       padding: 0 5px 0 5px; }

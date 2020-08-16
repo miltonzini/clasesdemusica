@@ -48,21 +48,6 @@ header.masthead
           font-size: 1.5rem
         @media (min-width: 992px) 
           font-size: 1.5rem
-      h3.materias
-        margin-top: 0.5em
-        color: $theme-primary
-        @media (max-width: 500px)
-          font-size: 0.9rem
-        @media (min-width: 361px) and (max-width: 480px)
-          font-size: 1.1rem
-        @media (min-width: 361px) and (max-width: 690px) 
-          font-size: 1.1rem
-        @media (min-width: 691px) and (max-width: 767px) 
-          font-size: 1.3rem
-        @media (min-width: 768px) and (max-width: 991px) 
-          font-size: 1.3rem
-        @media (min-width: 992px) 
-          font-size: 1.3rem
       
       hr 
         margin: 30px auto
@@ -109,3 +94,68 @@ header.masthead
       align-items: center
 
 
+
+
+
+.wordCarousel 
+    ul
+      padding-inline-start: 0
+    font-size: 1.3em
+    font-weight: 100
+    color: $theme-primary!important
+    div 
+        overflow: hidden
+        position: relative
+        //float: center
+        height: 65px
+        padding-top: 10px
+        margin-top: -10px
+        li 
+            //font-family: Serif;
+            //color: #ccc
+            font-weight: 550
+            padding: 0 10px
+            height: 45px
+            margin-bottom: 45px
+            display: block
+            @media (max-width: 500px)
+              font-size: 0.9rem
+            @media (min-width: 361px) and (max-width: 480px)
+              font-size: 1.1rem
+            @media (min-width: 361px) and (max-width: 690px) 
+              font-size: 1.1rem
+            @media (min-width: 691px) and (max-width: 767px) 
+              font-size: 1.3rem
+            @media (min-width: 768px) and (max-width: 991px) 
+              font-size: 1.3rem
+            @media (min-width: 992px) 
+              font-size: 1.3rem
+        
+    
+/* LIMPIAR ESTO Y PROBAR*/ 
+
+.flip
+  animation: flip 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite
+
+
+@keyframes flip
+    0%
+      margin-top: -360px
+    5%
+      margin-top: -270px
+    25%
+      margin-top: -270px
+    30%
+      margin-top: -180px
+    50%
+      margin-top: -180px
+    55%
+      margin-top: -90px
+    75%
+      margin-top: -90px
+    80%
+      margin-top: 0px
+    99.99%
+      margin-top: 0px
+    100%
+      margin-top: -270px

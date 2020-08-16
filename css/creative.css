@@ -415,17 +415,68 @@ header.masthead {
     padding: 150px 15px 100px;
     text-align: center; }
     header.masthead .header-content .header-content-inner h1 {
-      font-size: 3rem !important;
       font-weight: 700;
       margin-top: 0;
       margin-bottom: 0; }
+      @media (max-width: 500px) {
+        header.masthead .header-content .header-content-inner h1 {
+          font-size: 1.5rem; } }
+      @media (min-width: 361px) and (max-width: 480px) {
+        header.masthead .header-content .header-content-inner h1 {
+          font-size: 1.7rem; } }
+      @media (min-width: 361px) and (max-width: 690px) {
+        header.masthead .header-content .header-content-inner h1 {
+          font-size: 1.7rem; } }
+      @media (min-width: 691px) and (max-width: 767px) {
+        header.masthead .header-content .header-content-inner h1 {
+          font-size: 3rem; } }
+      @media (min-width: 768px) and (max-width: 991px) {
+        header.masthead .header-content .header-content-inner h1 {
+          font-size: 3rem; } }
+      @media (min-width: 992px) {
+        header.masthead .header-content .header-content-inner h1 {
+          font-size: 3rem; } }
     header.masthead .header-content .header-content-inner h2.slogan {
-      font-color: red !important;
-      font-size: 1.3rem; }
+      font-color: red !important; }
+      @media (max-width: 500px) {
+        header.masthead .header-content .header-content-inner h2.slogan {
+          font-size: 1rem; } }
+      @media (min-width: 361px) and (max-width: 480px) {
+        header.masthead .header-content .header-content-inner h2.slogan {
+          font-size: 1.2rem; } }
+      @media (min-width: 361px) and (max-width: 690px) {
+        header.masthead .header-content .header-content-inner h2.slogan {
+          font-size: 1.2rem; } }
+      @media (min-width: 691px) and (max-width: 767px) {
+        header.masthead .header-content .header-content-inner h2.slogan {
+          font-size: 1.5rem; } }
+      @media (min-width: 768px) and (max-width: 991px) {
+        header.masthead .header-content .header-content-inner h2.slogan {
+          font-size: 1.5rem; } }
+      @media (min-width: 992px) {
+        header.masthead .header-content .header-content-inner h2.slogan {
+          font-size: 1.5rem; } }
     header.masthead .header-content .header-content-inner h3.materias {
       margin-top: 0.5em;
-      color: #d13e3e;
-      font-size: 1.3em; }
+      color: #d13e3e; }
+      @media (max-width: 500px) {
+        header.masthead .header-content .header-content-inner h3.materias {
+          font-size: 0.9rem; } }
+      @media (min-width: 361px) and (max-width: 480px) {
+        header.masthead .header-content .header-content-inner h3.materias {
+          font-size: 1.1rem; } }
+      @media (min-width: 361px) and (max-width: 690px) {
+        header.masthead .header-content .header-content-inner h3.materias {
+          font-size: 1.1rem; } }
+      @media (min-width: 691px) and (max-width: 767px) {
+        header.masthead .header-content .header-content-inner h3.materias {
+          font-size: 1.3rem; } }
+      @media (min-width: 768px) and (max-width: 991px) {
+        header.masthead .header-content .header-content-inner h3.materias {
+          font-size: 1.3rem; } }
+      @media (min-width: 992px) {
+        header.masthead .header-content .header-content-inner h3.materias {
+          font-size: 1.3rem; } }
     header.masthead .header-content .header-content-inner hr {
       margin: 30px auto; }
     header.masthead .header-content .header-content-inner .bg-text {

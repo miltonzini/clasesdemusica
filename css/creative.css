@@ -388,14 +388,14 @@ header.masthead {
   background: -webkit-linear-gradient(305deg, #f3cece 0%, #ffebbb 36%, #fde7d8 60%, #dfe6e7 90%);
   background: -o-linear-gradient(305deg, #f3cece 0%, #ffebbb 36%, #fde7d8 60%, #dfe6e7 90%);
   background: linear-gradient(145deg, #f3cece 0%, #ffebbb 36%, #fde7d8 60%, #dfe6e7 90%);
-  -webkit-animation: filter-animation 27s infinite;
-  animation: filter-animation 27s infinite; }
+  -webkit-animation: filter-animation 8s infinite;
+  animation: filter-animation 8s infinite; }
 
 @-webkit-keyframes filter-animation {
   0% {
     -webkit-filter: hue-rotate(0deg); }
   50% {
-    -webkit-filter: hue-rotate(60deg); }
+    -webkit-filter: hue-rotate(18deg); }
   100% {
     -webkit-filter: hue-rotate(0deg); } }
 
@@ -404,8 +404,8 @@ header.masthead {
     -webkit-filter: hue-rotate(0deg);
     filter: hue-rotate(0deg); }
   50% {
-    -webkit-filter: hue-rotate(60deg);
-    filter: hue-rotate(60deg); }
+    -webkit-filter: hue-rotate(18deg);
+    filter: hue-rotate(18deg); }
   100% {
     -webkit-filter: hue-rotate(0deg);
     filter: hue-rotate(0deg); } }
@@ -539,8 +539,8 @@ header.masthead {
           font-size: 1.3rem; } }
 
 .flip {
-  -webkit-animation: flip 15s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
-  animation: flip 15s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
+  -webkit-animation: flip 19s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+  animation: flip 19s cubic-bezier(0.23, 1, 0.32, 1.2) infinite; }
 
 @-webkit-keyframes flip {
   0% {

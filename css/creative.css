@@ -388,8 +388,8 @@ header.masthead {
   background: -webkit-linear-gradient(305deg, #f3cece 0%, #ffebbb 36%, #fde7d8 60%, #dfe6e7 90%);
   background: -o-linear-gradient(305deg, #f3cece 0%, #ffebbb 36%, #fde7d8 60%, #dfe6e7 90%);
   background: linear-gradient(145deg, #f3cece 0%, #ffebbb 36%, #fde7d8 60%, #dfe6e7 90%);
-  -webkit-animation: filter-animation 8s infinite;
-  animation: filter-animation 8s infinite; }
+  -webkit-animation: filter-animation 3s infinite;
+  animation: filter-animation 3s infinite; }
 
 @-webkit-keyframes filter-animation {
   0% {

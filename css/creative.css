@@ -742,11 +742,17 @@ section#cursos .portada-canto {
 section#cursos .portada-lenguaje {
   background-image: url("https://cdn.britannica.com/s:900x675/25/193725-131-436D7C6C/sheet-music.jpg"); }
 
+section#cursos .portada-armonia-funcional {
+  background-image: url("https://www.musicshopeurope.com/content/files/images/ProductImages/medium/hl00240221_6.jpg"); }
+
 section#cursos .portada-finale {
   background-image: url("https://1.bp.blogspot.com/-rcOWnbvTgFs/XmQPYPtfRlI/AAAAAAAADvc/lbINUqjIw7IQ3pN3ovzuJMl7dJZPMpJtgCLcBGAsYHQ/s1600/uytrew.jpg"); }
 
 section#cursos .portada-reaper {
   background-image: url("https://www.reaper.fm/v6img/ss_persp_v63.jpg"); }
+
+section#cursos .portada-composicion-canciones {
+  background-image: url("https://www.guitarexcellence.co.za/wp-content/uploads/2017/05/songwriting.jpg"); }
 
 section#cursos button {
   border: none;

@@ -645,13 +645,31 @@ header.masthead {
 section#cursos .card-container {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-pack: distribute;
-  justify-content: space-around; }
+  display: flex; }
+  @media (max-width: 767px) {
+    section#cursos .card-container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
+      justify-content: flex-end; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    section#cursos .card-container {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; } }
+  @media (min-width: 992px) {
+    section#cursos .card-container {
+      margin-left: 8vw;
+      margin-right: 8vw;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; } }
 
 section#cursos .card {
   background: #fff;
@@ -668,6 +686,13 @@ section#cursos .card {
   flex-direction: row;
   border-radius: 10px;
   position: relative; }
+  @media (max-width: 767px) {
+    section#cursos .card {
+      margin: 0.5em auto 0.5em auto; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    section#cursos .card {
+      margin-left: 0.2em;
+      margin-right: 0.2em; } }
 
 section#cursos .card h2 {
   font-size: 1.25em;

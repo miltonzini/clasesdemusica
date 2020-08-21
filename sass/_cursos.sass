@@ -4,6 +4,7 @@ section#cursos
     //background-color: #cc99ff // temp
     //width: 100vw
     display: flex
+    flex-wrap: wrap
     @media (max-width: 767px)
       flex-direction: column
       justify-content: flex-end
@@ -20,6 +21,7 @@ section#cursos
 
   .card 
     background: #fff
+    margin: 0.5em auto 0.5em auto
     border-radius: 4px
     box-shadow: 5px 5px 5px rgba(34, 35, 58, 0.1)
     max-width: 400px
@@ -28,10 +30,13 @@ section#cursos
     border-radius: 10px
     position: relative
     @media (max-width: 767px)
-      margin: 0.5em auto 0.5em auto
+      // asd
     @media (min-width: 768px) and (max-width: 991px)
+      min-width: 392px
       margin-left: 0.2em
       margin-right: 0.2em
+    @media (min-width: 992px)
+      min-width: 396px
 
   .card h2 
     font-size: 1.25em
@@ -70,6 +75,14 @@ section#cursos
     background-image: url("https://s1.eestatic.com/2019/01/18/como/Instrumentos_musicales-Aprendizaje-Como_hacer_369474293_112601571_1024x576.jpg")
   .portada-violin
     background-image: url("https://www.superprof.com.ar/blog/wp-content/uploads/2017/11/grupos-violin.jpg")
+  .portada-canto
+    background-image: url("https://digitaldefynd.com/wp-content/uploads/2019/09/best-singing-course-class-certification-training-online.jpg")
+  .portada-lenguaje
+    background-image: url("https://cdn.britannica.com/s:900x675/25/193725-131-436D7C6C/sheet-music.jpg")
+  .portada-finale
+    background-image: url("https://1.bp.blogspot.com/-rcOWnbvTgFs/XmQPYPtfRlI/AAAAAAAADvc/lbINUqjIw7IQ3pN3ovzuJMl7dJZPMpJtgCLcBGAsYHQ/s1600/uytrew.jpg")
+  .portada-reaper
+    background-image: url("https://www.reaper.fm/v6img/ss_persp_v63.jpg")
 
   button 
     border: none

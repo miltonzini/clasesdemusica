@@ -645,7 +645,9 @@ header.masthead {
 section#cursos .card-container {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
   @media (max-width: 767px) {
     section#cursos .card-container {
       -webkit-box-orient: vertical;
@@ -673,6 +675,7 @@ section#cursos .card-container {
 
 section#cursos .card {
   background: #fff;
+  margin: 0.5em auto 0.5em auto;
   border-radius: 4px;
   -webkit-box-shadow: 5px 5px 5px rgba(34, 35, 58, 0.1);
   box-shadow: 5px 5px 5px rgba(34, 35, 58, 0.1);
@@ -686,13 +689,14 @@ section#cursos .card {
   flex-direction: row;
   border-radius: 10px;
   position: relative; }
-  @media (max-width: 767px) {
-    section#cursos .card {
-      margin: 0.5em auto 0.5em auto; } }
   @media (min-width: 768px) and (max-width: 991px) {
     section#cursos .card {
+      min-width: 392px;
       margin-left: 0.2em;
       margin-right: 0.2em; } }
+  @media (min-width: 992px) {
+    section#cursos .card {
+      min-width: 396px; } }
 
 section#cursos .card h2 {
   font-size: 1.25em;
@@ -731,6 +735,18 @@ section#cursos .portada-guitarra-clasica {
 
 section#cursos .portada-violin {
   background-image: url("https://www.superprof.com.ar/blog/wp-content/uploads/2017/11/grupos-violin.jpg"); }
+
+section#cursos .portada-canto {
+  background-image: url("https://digitaldefynd.com/wp-content/uploads/2019/09/best-singing-course-class-certification-training-online.jpg"); }
+
+section#cursos .portada-lenguaje {
+  background-image: url("https://cdn.britannica.com/s:900x675/25/193725-131-436D7C6C/sheet-music.jpg"); }
+
+section#cursos .portada-finale {
+  background-image: url("https://1.bp.blogspot.com/-rcOWnbvTgFs/XmQPYPtfRlI/AAAAAAAADvc/lbINUqjIw7IQ3pN3ovzuJMl7dJZPMpJtgCLcBGAsYHQ/s1600/uytrew.jpg"); }
+
+section#cursos .portada-reaper {
+  background-image: url("https://www.reaper.fm/v6img/ss_persp_v63.jpg"); }
 
 section#cursos button {
   border: none;

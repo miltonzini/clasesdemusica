@@ -1,2 +1,66 @@
 section#cursos
-  
+  //@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700")
+  .card-container
+    //background-color: #cc99ff // temp
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+
+  .card 
+    background: #fff
+    border-radius: 4px
+    box-shadow: 5px 5px 5px rgba(34, 35, 58, 0.1)
+    max-width: 400px
+    display: flex
+    flex-direction: row
+    border-radius: 10px
+    position: relative
+
+  .card h2 
+    font-size: 1.25em
+    margin: 0
+    padding: 0 1rem
+
+  .card .desc 
+    padding: 0.5rem 1rem
+    font-size: 12px   
+
+  .card-text 
+    display: grid
+    grid-template-columns: 1fr 2fr
+
+
+  .title-total 
+    padding: 1.5em 1em 1em 1em
+
+
+  path 
+    fill: white
+
+
+  .img-portada 
+    width: 100%
+
+
+  .portada 
+    width: 100%
+    height: 100%
+    border-top-left-radius: 10px
+    border-bottom-left-radius: 10px
+    background-position: bottom center
+    background-size: cover
+  .portada-guitarra-clasica
+    background-image: url("https://s1.eestatic.com/2019/01/18/como/Instrumentos_musicales-Aprendizaje-Como_hacer_369474293_112601571_1024x576.jpg")
+  .portada-violin
+    background-image: url("https://www.superprof.com.ar/blog/wp-content/uploads/2017/11/grupos-violin.jpg")
+
+  button 
+    border: none
+    background: none
+    font-size: 24px
+    color: #8bc34a
+    cursor: pointer
+    transition: 0.5s
+    &:hover
+      color: #4CAF50  
+      transform: rotate(22deg)

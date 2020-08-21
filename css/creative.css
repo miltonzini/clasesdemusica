@@ -642,6 +642,86 @@ header.masthead {
   99.99% {
     margin-top: -900px; } }
 
+section#cursos .card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+
+section#cursos .card {
+  background: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 5px 5px 5px rgba(34, 35, 58, 0.1);
+  box-shadow: 5px 5px 5px rgba(34, 35, 58, 0.1);
+  max-width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  border-radius: 10px;
+  position: relative; }
+
+section#cursos .card h2 {
+  font-size: 1.25em;
+  margin: 0;
+  padding: 0 1rem; }
+
+section#cursos .card .desc {
+  padding: 0.5rem 1rem;
+  font-size: 12px; }
+
+section#cursos .card-text {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+  grid-template-columns: 1fr 2fr; }
+
+section#cursos .title-total {
+  padding: 1.5em 1em 1em 1em; }
+
+section#cursos path {
+  fill: white; }
+
+section#cursos .img-portada {
+  width: 100%; }
+
+section#cursos .portada {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-position: bottom center;
+  background-size: cover; }
+
+section#cursos .portada-guitarra-clasica {
+  background-image: url("https://s1.eestatic.com/2019/01/18/como/Instrumentos_musicales-Aprendizaje-Como_hacer_369474293_112601571_1024x576.jpg"); }
+
+section#cursos .portada-violin {
+  background-image: url("https://www.superprof.com.ar/blog/wp-content/uploads/2017/11/grupos-violin.jpg"); }
+
+section#cursos button {
+  border: none;
+  background: none;
+  font-size: 24px;
+  color: #8bc34a;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+  section#cursos button:hover {
+    color: #4CAF50;
+    -webkit-transform: rotate(22deg);
+    -ms-transform: rotate(22deg);
+    transform: rotate(22deg); }
+
 .call-to-action {
   padding: 50px 0; }
   .call-to-action h2 {

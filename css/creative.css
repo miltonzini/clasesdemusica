@@ -733,6 +733,9 @@ section#cursos .portada {
 section#cursos .portada-guitarra-clasica {
   background-image: url("https://s1.eestatic.com/2019/01/18/como/Instrumentos_musicales-Aprendizaje-Como_hacer_369474293_112601571_1024x576.jpg"); }
 
+section#cursos .portada-guitarra-electrica {
+  background-image: url("https://files2.soniccdn.com/images/articles/original/6989.jpg"); }
+
 section#cursos .portada-violin {
   background-image: url("https://www.superprof.com.ar/blog/wp-content/uploads/2017/11/grupos-violin.jpg"); }
 
@@ -753,6 +756,9 @@ section#cursos .portada-reaper {
 
 section#cursos .portada-composicion-canciones {
   background-image: url("https://www.guitarexcellence.co.za/wp-content/uploads/2017/05/songwriting.jpg"); }
+
+section#cursos .portada-ukelele {
+  background-image: url("https://okdiario.com/img/2018/06/25/tipos-de-ukelele-655x368.png"); }
 
 section#cursos button {
   border: none;

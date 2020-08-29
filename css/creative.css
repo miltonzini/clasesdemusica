@@ -916,6 +916,20 @@ section.social .socialwrapper {
       min-width: 4em;
       font-size: 0.8em; } }
 
+section#empezar .button {
+  border-radius: 3px;
+  color: #4a6163;
+  border: 0px;
+  padding: 5px 10px;
+  background: -webkit-linear-gradient(305deg, #f3cece 0%, #ffebbb 36%, #fde7d8 60%, #dfe6e7 90%);
+  background: -o-linear-gradient(305deg, #f3cece 0%, #ffebbb 36%, #fde7d8 60%, #dfe6e7 90%);
+  background: linear-gradient(145deg, #f3cece 0%, #ffebbb 36%, #fde7d8 60%, #dfe6e7 90%); }
+
+section#empezar .button:hover {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 5px 5px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 5px 5px 0 rgba(0, 0, 0, 0.19);
+  text-decoration: none; }
+
 footer {
   font-size: 0.8rem; }
   footer h3.phonenumber {

@@ -56,7 +56,32 @@ header.masthead
       .bg-text
         background-color: rgba(0, 0, 0, 0.57)
         padding: 0 5px 0 5px
-      
+  
+    .cta-wrapper
+      display: flex
+      justify-content: center
+    .cta
+      border-radius: 3px
+      color: $theme-gray1
+      border: 0px
+      padding: 5px 10px
+      background: #ffebbb
+      box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0 5px 5px 0 rgba(0,0,0,0.1)
+      &:hover
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 5px 5px 0 rgba(0,0,0,0.19)
+        text-decoration: none
+      @media (max-width: 500px)
+          font-size: 1rem
+      @media (min-width: 361px) and (max-width: 480px)
+          font-size: 1.2rem
+      @media (min-width: 361px) and (max-width: 690px) 
+          font-size: 1.2rem
+      @media (min-width: 691px) and (max-width: 767px) 
+          font-size: 1.3rem
+      @media (min-width: 768px) and (max-width: 991px) 
+          font-size: 1.3rem
+      @media (min-width: 992px) 
+          font-size: 1.3rem
     
   
   @media (min-width: 768px) 

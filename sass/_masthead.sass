@@ -8,7 +8,7 @@ header.masthead
   section.bg-gradient
   background: rgb(250,210,211)
   background: linear-gradient(145deg, $theme-primary-light-1 0%, $theme-yellow-light-1 36%, $theme-orange-light-1 60%, $theme-gray1-light-1 90%)
-  @include bg-animation
+  //@include bg-animation
   
   
 
@@ -62,10 +62,11 @@ header.masthead
       justify-content: center
     .cta
       border-radius: 3px
-      color: $theme-gray1
+      color: lighten($theme-primary, 10%)
+      font-weight: 0
       border: 0px
       padding: 5px 10px
-      background: #ffebbb
+      background: #ff980061
       box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1), 0 5px 5px 0 rgba(0,0,0,0.1)
       &:hover
         box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 5px 5px 0 rgba(0,0,0,0.19)

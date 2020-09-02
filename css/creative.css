@@ -387,28 +387,7 @@ header.masthead {
   background: #fad2d3;
   background: -webkit-linear-gradient(305deg, #f3cece 0%, #ffebbb 36%, #fde7d8 60%, #dfe6e7 90%);
   background: -o-linear-gradient(305deg, #f3cece 0%, #ffebbb 36%, #fde7d8 60%, #dfe6e7 90%);
-  background: linear-gradient(145deg, #f3cece 0%, #ffebbb 36%, #fde7d8 60%, #dfe6e7 90%);
-  -webkit-animation: filter-animation 3s infinite;
-  animation: filter-animation 3s infinite; }
-
-@-webkit-keyframes filter-animation {
-  0% {
-    -webkit-filter: hue-rotate(0deg); }
-  50% {
-    -webkit-filter: hue-rotate(18deg); }
-  100% {
-    -webkit-filter: hue-rotate(0deg); } }
-
-@keyframes filter-animation {
-  0% {
-    -webkit-filter: hue-rotate(0deg);
-    filter: hue-rotate(0deg); }
-  50% {
-    -webkit-filter: hue-rotate(18deg);
-    filter: hue-rotate(18deg); }
-  100% {
-    -webkit-filter: hue-rotate(0deg);
-    filter: hue-rotate(0deg); } }
+  background: linear-gradient(145deg, #f3cece 0%, #ffebbb 36%, #fde7d8 60%, #dfe6e7 90%); }
   header.masthead .header-content {
     position: relative;
     width: 100%;
@@ -470,10 +449,11 @@ header.masthead {
       justify-content: center; }
     header.masthead .header-content .cta {
       border-radius: 3px;
-      color: #4a6163;
+      color: #db6767;
+      font-weight: 0;
       border: 0px;
       padding: 5px 10px;
-      background: #ffebbb;
+      background: #ff980061;
       -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
       box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1); }
       header.masthead .header-content .cta:hover {

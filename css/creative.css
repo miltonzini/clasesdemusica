@@ -958,6 +958,13 @@ footer {
   footer h3.phonenumber {
     font-size: 2em; }
 
+body.subclases #faq h4 {
+  font-weight: bold;
+  font-size: 0.9rem; }
+
+body.subclases #faq p {
+  font-size: 0.9rem; }
+
 header.submasthead {
   position: relative;
   width: 100%;

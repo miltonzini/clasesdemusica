@@ -714,6 +714,8 @@ section#cursos .card {
   @media (min-width: 992px) {
     section#cursos .card {
       min-width: 396px; } }
+  section#cursos .card p {
+    margin-bottom: 0; }
 
 section#cursos .card h2 {
   font-size: 1.25em;

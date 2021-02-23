@@ -691,6 +691,9 @@ section#cursos .card-container {
       justify-content: space-around; } }
 
 section#cursos .card {
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
   background: #fff;
   margin: 0.5em auto 0.5em auto;
   border-radius: 4px;
@@ -705,7 +708,10 @@ section#cursos .card {
   -ms-flex-direction: row;
   flex-direction: row;
   border-radius: 10px;
-  position: relative; }
+  position: relative;
+  -webkit-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s; }
   @media (min-width: 768px) and (max-width: 991px) {
     section#cursos .card {
       min-width: 392px;
@@ -716,6 +722,16 @@ section#cursos .card {
       min-width: 396px; } }
   section#cursos .card p {
     margin-bottom: 0; }
+  section#cursos .card:hover {
+    -webkit-box-shadow: 5px 5px 12px rgba(34, 35, 58, 0.2);
+    box-shadow: 5px 5px 12px rgba(34, 35, 58, 0.2);
+    background: -webkit-linear-gradient(305deg, #f3cece 0%, #ffebbb 36%, #fde7d8 60%, #dfe6e7 90%);
+    background: -o-linear-gradient(305deg, #f3cece 0%, #ffebbb 36%, #fde7d8 60%, #dfe6e7 90%);
+    background: linear-gradient(145deg, #f3cece 0%, #ffebbb 36%, #fde7d8 60%, #dfe6e7 90%); }
+
+section#cursos .card a {
+  text-decoration: none;
+  color: inherit; }
 
 section#cursos .card h2 {
   font-size: 1.25em;

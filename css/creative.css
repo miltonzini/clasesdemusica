@@ -975,6 +975,18 @@ footer {
   font-size: 0.8rem; }
   footer h3.phonenumber {
     font-size: 2em; }
+  footer .signature {
+    background-color: #43585a;
+    color: #f9faf4;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; }
+    footer .signature p {
+      margin-bottom: 0;
+      font-size: 0.8rem !important; }
+    footer .signature a {
+      color: inherit;
+      font-weight: bold; }
 
 body.subclases #faq h4 {
   font-weight: bold;
